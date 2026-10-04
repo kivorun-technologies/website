@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kivorun-technologies.pages.dev/sitemap.xml

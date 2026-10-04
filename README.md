@@ -1,16 +1,17 @@
-# Kivorun Technologies
+# Kivorun Technologies website
 
-Public company website for software and websites, hardware assistance, IT consulting and support.
+[Visit the live website](https://kivorun-technologies.pages.dev/)
 
-**Website:** https://kivorun-technologies.pages.dev/
-**Business enquiries:** kivorun.technologies@gmail.com
+A responsive company website with home, services, company, contact and privacy pages. The contact page prepares an enquiry for the visitor to send through their own email app; it does not submit messages to a server.
 
-## Run locally
+## Preview
 
-Run `python3 -m http.server 8000` from this folder, then open `http://localhost:8000`.
+Run `python3 -m http.server 8766` in this directory and open `http://localhost:8766`.
 
-The website is static HTML and CSS. Contact links open the visitor’s email app. There is no contact-form backend, analytics, customer data, or authentication.
+## Publish
 
-## Update
+The public site is hosted with Cloudflare Pages direct upload. Upload the contents of this directory, excluding Git files and this README, to the `kivorun-technologies` Pages project.
 
-Edit `index.html` and `styles.css`, then upload the public files as a production deployment in Cloudflare Pages.
+## Contact
+
+kivorun.technologies@gmail.com
